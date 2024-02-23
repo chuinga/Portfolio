@@ -9,7 +9,7 @@ import '../styles/header.css';
 function header() {
     return ( 
         <div className='container'>
-            <img src={MainLogo} alt="Logo" />
+            <img src={MainLogo} alt="Logo" className='mainLogo'/>
             <div className='social'>
                 <img src={Linkedin} alt="Linkedin" />
                 <img src={Github} alt="Github" />

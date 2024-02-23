@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
-.container img {
-    width: 10vw;
+.mainLogo {
+    width: 8vw;
+}
+.social img {
+    width: 4vw;
 }
