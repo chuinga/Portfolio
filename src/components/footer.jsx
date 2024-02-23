@@ -4,5 +4,4 @@ function footer() {
      );
 }
 
-export default foote
-<>Footer</>r;
+export default footer;

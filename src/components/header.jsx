@@ -4,5 +4,4 @@ function header() {
      );
 }
 
-export default head
-<>Header</>er;
+export default header;

@@ -4,5 +4,4 @@ function sidebar() {
      );
 }
 
-export default sideb
-<>Projects</>ar;
+export default sidebar;
