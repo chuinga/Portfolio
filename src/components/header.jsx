@@ -1,6 +1,21 @@
+// Import images
+import MainLogo from '../assets/mainLogo.png';
+import Linkedin from '../assets/linkedin.png';
+import Github from '../assets/github.png';
+import Mail from '../assets/mail.png';
+// Import styles
+import '../styles/header.css';
+
 function header() {
     return ( 
-        <>Header</>
+        <div className='container'>
+            <img src={MainLogo} alt="Logo" />
+            <div className='social'>
+                <img src={Linkedin} alt="Linkedin" />
+                <img src={Github} alt="Github" />
+                <img src={Mail} alt="Mail" />
+            </div>
+        </div>
      );
 }
 

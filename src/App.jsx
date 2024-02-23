@@ -1,7 +1,10 @@
 import { useState } from 'react';
+// Import Styles
 import './App.css';
-import Header from './components/header';
+// Import pages
 import HomePage from './pages/HomePage';
+// Import components
+import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Footer from './components/footer';
 
