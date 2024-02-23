@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
 }
+
 .mainLogo {
     width: 8vw;
 }
+
 .social img {
-    width: 4vw;
+    width: 3vw;
+    margin: 2px;
 }

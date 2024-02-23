@@ -1,4 +1,3 @@
-import { useState } from 'react';
 // Import Styles
 import './App.css';
 // Import pages
@@ -13,9 +12,9 @@ function App() {
   return (
     <>
     <Header />
-    <div className='mainContent'>
-      <HomePage />
-      <Sidebar />
+    <div className='mainContainer'>
+      <HomePage className='homePage'/>
+      <Sidebar className='sidebar'/>
     </div>
     <Footer />
     </>

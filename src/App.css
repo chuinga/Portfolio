@@ -1,0 +1,6 @@
+.mainContainer {
+  height: 40vh;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
