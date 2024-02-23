@@ -6,9 +6,9 @@ function sidebar() {
         <div className='projects'>
             <h2>Projects</h2>
             <ul>
-                <li>Gravity</li>
-                <li>Pawsitive Homes</li>
-                <li>GrooveGrid</li>
+                <dd>-Gravity</dd>
+                <dd>-Pawsitive Homes</dd>
+                <dd>-GrooveGrid</dd>
             </ul>
         </div>
      );
