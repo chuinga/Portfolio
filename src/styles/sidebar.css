@@ -1,7 +1,22 @@
 .projects {
-    width: 73%;
+    margin: 5%;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-start;
+}
+
+.projects ul {
+    padding: 0;
+    align-content: start;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul > li::before {
+    content: "-";
+    padding-right: 4px;
 }

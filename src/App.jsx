@@ -7,18 +7,17 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Footer from './components/footer';
 
-
 function App() {
   return (
-    <>
-    <Header />
+    <div className='frame'>
+      <Header />
     <div className='mainContainer'>
       <HomePage className='homePage'/>
       <Sidebar className='sidebar'/>
     </div>
     <Footer />
-    </>
+    </div>  
   )
 }
 
-export default App
+export default App;

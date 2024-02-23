@@ -14,8 +14,7 @@ function footer() {
             <img src={Fr} alt="Fr" />
             <img src={Pt} alt="Pt" />     
         </div>
-);
-        
+);        
 }
 
 export default footer;
