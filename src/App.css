@@ -1,4 +1,5 @@
 .mainContainer {
+  max-width: 1024px;
   height: 40vh;
   padding: 0 3rem;
   display: flex;
