@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 // Import images
 import MainLogo from '../assets/mainLogo.png';
 import Linkedin from '../assets/linkedin.png';
@@ -11,9 +12,16 @@ function header() {
         <div className='container'>
             <img src={MainLogo} alt="Logo" className='mainLogo'/>
             <div className='social'>
-                <img src={Linkedin} alt="Linkedin" />
-                <img src={Github} alt="Github" />
-                <img src={Mail} alt="Mail" />
+                <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/'>                
+                    <img src={Linkedin} alt="Linkedin" />
+                </Link>               
+                <Link to='https://github.com/chuinga'>               
+                    <img src={Github} alt="Github" />
+                </Link>               
+                             
+                    <img src={Mail} alt="Mail" />
+                
+                
             </div>
         </div>
      );
