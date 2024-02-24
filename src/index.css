@@ -1,13 +1,13 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-style: oblique;
-  font-weight: 400;
   color-scheme: light dark;
   color: rgba(167, 167, 167, 0.87);
   background-color: #000000;
 }
 
 body {
+  font-family: 'Labrada', cursive;
   margin: 3rem;
   display: flex;
   place-items: center;

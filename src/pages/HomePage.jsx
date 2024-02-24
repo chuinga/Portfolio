@@ -5,8 +5,8 @@ function body() {
   return (
     <>
       <div>
-        <p>Hi, my name is</p>
-        <h2>Miguel Martins</h2>
+        <p className='blue'>Hi, my name is</p>
+        <h2 className='lightBlue'>Miguel Martins</h2>
         <h2>I create stuff for the web...</h2>
         <p>
           I'm a full-stack developer based near Lisbon, Portugal. Passionate

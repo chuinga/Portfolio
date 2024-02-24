@@ -4,7 +4,7 @@ import '../styles/sidebar.css';
 function sidebar() {
     return ( 
         <div className='projects'>
-            <h2>Projects</h2>
+            <h2 className='lightBlue'>Projects</h2>
             <ul>
                 <li>Gravity</li>
                 <li>Pawsitive Homes</li>
