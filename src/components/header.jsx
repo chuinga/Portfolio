@@ -12,16 +12,15 @@ function header() {
         <div className='container'>
             <img src={MainLogo} alt="Logo" className='mainLogo'/>
             <div className='social'>
-                <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/'>                
+                <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/' target='_blank'>                
                     <img src={Linkedin} alt="Linkedin" />
                 </Link>               
-                <Link to='https://github.com/chuinga'>               
+                <Link to='https://github.com/chuinga' target='_blank'>               
                     <img src={Github} alt="Github" />
-                </Link>               
-                             
+                </Link> 
+                <a href="mailto:mfproencamartins@gmail.com?subject=Mail%20from%20miguelmartins.com">
                     <img src={Mail} alt="Mail" />
-                
-                
+                </a>   
             </div>
         </div>
      );
