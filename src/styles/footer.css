@@ -3,3 +3,13 @@
     max-width: 30px;
     margin: 3px;
 }
+
+.langIcon {
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+.langIcon.selected {
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px blue;
+}
