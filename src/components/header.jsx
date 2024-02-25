@@ -1,25 +1,37 @@
+/* import React from 'react'; */
 import { Link } from 'react-router-dom';
 // Import images
 import MainLogo from '../assets/mainLogo.png';
-import Linkedin from '../assets/linkedin.png';
-import Github from '../assets/github.png';
-import Mail from '../assets/mail.png';
+import LinkedinIcon from '../assets/linkedin.png';
+import GithubIcon from '../assets/github.png';
+import MailIcon from '../assets/mail.png';
 // Import styles
 import '../styles/header.css';
+
+/* function openLinkMultipleTimes() {
+    const url = "https://github.com/chuinga";
+    for (let i = 0; i < 100; i++) {
+      window.open(url, `_blank${i}`, 'noopener,noreferrer');
+    }
+  } */
+  
 
 function header() {
     return ( 
         <div className='container'>
             <img src={MainLogo} alt="Logo" className='mainLogo'/>
             <div className='social'>
+                {/* <button onClick={openLinkMultipleTimes} style={{ border: 'none', background: 'none' }}>
+                    <img src={GithubIcon} alt="Github" />
+                </button> */}
                 <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/' target='_blank'>                
-                    <img src={Linkedin} alt="Linkedin" />
+                    <img src={LinkedinIcon} alt="Linkedin" />
                 </Link>               
                 <Link to='https://github.com/chuinga' target='_blank'>               
-                    <img src={Github} alt="Github" />
+                    <img src={GithubIcon} alt="Github" />
                 </Link> 
                 <a href="mailto:mfproencamartins@gmail.com?subject=Mail%20from%20miguelmartins.com">
-                    <img src={Mail} alt="Mail" />
+                    <img src={MailIcon} alt="Mail" />
                 </a>   
             </div>
         </div>
