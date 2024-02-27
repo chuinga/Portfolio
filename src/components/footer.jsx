@@ -11,7 +11,7 @@ import '../styles/footer.css'
 
 function footer() {
     const { i18n } = useTranslation();
-    const [selectedLanguage, setSelectedLanguage] = useState('');
+    const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
     
     const handleLanguageChange = (newLang) => {
         i18n.changeLanguage(newLang);
