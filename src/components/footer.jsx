@@ -1,5 +1,5 @@
 // Import React, useState and useTranslation hook
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 // Import images
 import En from '../assets/en.png';
@@ -22,10 +22,10 @@ function footer() {
 
     return ( 
         <div className='lang'>
-            <img src={En} alt="English" className={`langIcon ${isSelected('en') ? 'selected' : ''}`} onClick={() => handleLanguageChange('en')} />
-            <img src={Es} alt="Español" className={`langIcon ${isSelected('es') ? 'selected' : ''}`} onClick={() => handleLanguageChange('es')} />
-            <img src={Fr} alt="Français" className={`langIcon ${isSelected('fr') ? 'selected' : ''}`} onClick={() => handleLanguageChange('fr')} />
-            <img src={Pt} alt="Português" className={`langIcon ${isSelected('pt') ? 'selected' : ''}`} onClick={() => handleLanguageChange('pt')} />     
+            <img src={En} alt='English' className={`langIcon ${isSelected('en') ? 'selected' : ''}`} onClick={() => handleLanguageChange('en')} />
+            <img src={Es} alt='Español' className={`langIcon ${isSelected('es') ? 'selected' : ''}`} onClick={() => handleLanguageChange('es')} />
+            <img src={Fr} alt='Français' className={`langIcon ${isSelected('fr') ? 'selected' : ''}`} onClick={() => handleLanguageChange('fr')} />
+            <img src={Pt} alt='Português' className={`langIcon ${isSelected('pt') ? 'selected' : ''}`} onClick={() => handleLanguageChange('pt')} />     
         </div>
 );        
 }

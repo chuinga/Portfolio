@@ -1,7 +1,9 @@
+import { Routes, Route } from 'react-router-dom';
 // Import Styles
 import './App.css';
 // Import pages
 import HomePage from './pages/HomePage';
+import Project from './pages/Project';
 // Import components
 import Header from './components/header';
 import Sidebar from './components/sidebar';
@@ -12,7 +14,10 @@ function App() {
     <div className='frame'>
       <Header />
     <div className='mainContainer'>
-      <HomePage className='homePage'/>
+      <Routes>
+        <Route path='/' element={<HomePage className='homePage'/>} />
+        <Route path='/project' element={<Project className='Project'/>} />
+      </Routes>      
       <Sidebar className='sidebar'/>
     </div>
     <Footer />

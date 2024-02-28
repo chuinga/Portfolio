@@ -7,7 +7,7 @@ import translationES from '../locales/es/translation.json';
 import translationFR from '../locales/fr/translation.json';
 import translationPT from '../locales/pt/translation.json';
 // Import styling
-import '../styles/homePage.css';
+import '../styles/project.css';
 
 const resources = {
   en: {
@@ -33,19 +33,17 @@ i18n.use(initReactI18next).init({
   },
 });
 
-function body() {
+function project() {
   const { t } = useTranslation();
 
   return (
     <>
       <div>
-        <p className='blue'>{t('greeting')}</p>
-        <h2 className='lightBlue'>Miguel Martins</h2>
-        <h2>{t('my_title')}</h2>
-        <p>{t('my_description')}</p>
+        <h2 className='blue'>Gravity</h2>
+        <p>{t('gravity_description')}</p>
       </div>
     </>
   );
 }
 
-export default body;
+export default project;
