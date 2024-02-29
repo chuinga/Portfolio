@@ -51,7 +51,7 @@ function project() {
     <>
       <div className='content'>
         <h2 className='blue'>{title}</h2>
-        <p>{t(translationKey)}</p>
+        <p className='projectDescription'>{t(translationKey)}</p>
       </div>
     </>
   );

@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-:root {
+:root {   
+
+  max-height: 400px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin: 0;
+  padding: 0; 
   font-style: oblique;
   color-scheme: light dark;
   color: rgba(167, 167, 167, 0.87); 
   /* background-color: #000000; */
 }
 
-body {
+body {  
   font-family: 'Labrada', cursive;
   margin: 3rem;
   display: flex;
