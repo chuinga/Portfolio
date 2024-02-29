@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 // Import Styling
 import { useTranslation } from 'react-i18next';
