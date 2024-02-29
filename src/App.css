@@ -1,13 +1,17 @@
 .frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 15px solid #0206f5;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
-  height: 400px;
+  height: 420px;
+  overflow-y: auto;
 }
 
 .mainContainer {
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
-  height: 70%;
+  height: 60%;
 }

@@ -1,5 +1,6 @@
 .projects {
-    margin: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
     min-width: 150px;
     display: flex;
     flex-direction: column;
