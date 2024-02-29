@@ -13,14 +13,14 @@ function App() {
   return (
     <div className='frame'>
       <Header />
-    <div className='mainContainer'>
-      <Routes>
-        <Route path='/' element={<HomePage className='homePage'/>} />
-        <Route path='/project' element={<Project className='Project'/>} />
-      </Routes>      
-      <Sidebar className='sidebar'/>
-    </div>
-    <Footer />
+      <div className='mainContainer'>
+        <Routes>
+          <Route path='/' element={<HomePage className='homePage'/>} />
+          <Route path='/project/:projectName' element={<Project className='Project'/>} />        
+        </Routes>      
+        <Sidebar className='sidebar'/>
+      </div>
+      <Footer />
     </div>  
   )
 }

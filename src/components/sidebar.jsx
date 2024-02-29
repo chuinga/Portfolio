@@ -3,19 +3,19 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import '../styles/sidebar.css';
 
-function sidebar() {
+function Sidebar() {
     const { t } = useTranslation();
 
     return ( 
         <div className='projects'>
             <h2 className='lightBlue'>{t('projects')}</h2>
-            <ul>                     
-                <li><NavLink to='/project'>Gravity</NavLink></li>         
-                <li>Pawsitive Homes</li>
-                <li>GrooveGrid</li>
+            <ul>
+                <li><NavLink to='/project/gravity'>Gravity</NavLink></li>
+                <li><NavLink to='/project/pawsitivehomes'>Pawsitive Homes</NavLink></li>
+                <li><NavLink to='/project/groovegrid'>GrooveGrid</NavLink></li>
             </ul>
         </div>
-     );
+    );
 }
 
-export default sidebar;
+export default Sidebar;

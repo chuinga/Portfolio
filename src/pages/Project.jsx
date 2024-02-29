@@ -1,3 +1,5 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
 // Import translation
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
@@ -35,12 +37,21 @@ i18n.use(initReactI18next).init({
 
 function project() {
   const { t } = useTranslation();
+  const { projectName } = useParams();
+  const translationKey = `${projectName}_description`;
+
+  const projectTitles = {
+    gravity: 'Gravity',
+    pawsitivehomes: 'Pawsitive Homes',
+    groovegrid: 'GrooveGrid'
+  };
+  const title = projectTitles[projectName] || 'Project not found'
 
   return (
     <>
-      <div>
-        <h2 className='blue'>Gravity</h2>
-        <p>{t('gravity_description')}</p>
+      <div className='content'>
+        <h2 className='blue'>{title}</h2>
+        <p>{t(translationKey)}</p>
       </div>
     </>
   );

@@ -38,7 +38,7 @@ function body() {
 
   return (
     <>
-      <div>
+      <div className='content'>
         <p className='blue'>{t('greeting')}</p>
         <h2 className='lightBlue'>Miguel Martins</h2>
         <h2>{t('my_title')}</h2>
