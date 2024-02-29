@@ -2,15 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-style: oblique;
   color-scheme: light dark;
-  color: rgba(167, 167, 167, 0.87);
-  background-color: #000000;
+  color: rgba(167, 167, 167, 0.87); 
+  /* background-color: #000000; */
 }
 
 body {
@@ -20,5 +18,5 @@ body {
   place-items: center;
   justify-content: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; 
 }

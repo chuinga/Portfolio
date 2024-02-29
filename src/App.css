@@ -2,11 +2,12 @@
   border: 15px solid #0206f5;
   padding: 10px;
   box-sizing: border-box;
+  height: 400px;
 }
 
 .mainContainer {
   max-width: 1024px;
-  height: 30vh;
   display: flex;
   justify-content: space-between;
+  height: 70%;
 }
