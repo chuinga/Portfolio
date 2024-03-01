@@ -7,9 +7,9 @@ h2, p {
 }
 
 .blue {
-    color: #2F94BC;
+    color: var(----title1-color);
 }
 
 .lightBlue {
-    color: #9ADAE5;
+    color: var(----title2-color);
 }
