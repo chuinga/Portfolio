@@ -23,5 +23,5 @@ ul > li::before {
 }
 
 .lighBlue {
-    color: #9ADAE5;
+    color: var(----title2-color);
 }

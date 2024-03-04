@@ -9,6 +9,7 @@
   --foreground-color: #003cff;
   --title1-color: #2F94BC;
   --title2-color: #9ADAE5;
+  --description: #a7a7a7;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
   max-height: 100vh;
@@ -16,7 +17,7 @@
   padding: 0; 
   font-style: oblique;
   /* color-scheme: light dark; */
-  color: rgba(167, 167, 167, 0.87); 
+  /* color: var(--description);  */
   /* background-color: #000000; */ 
 }
 
@@ -29,4 +30,14 @@ body {
   min-width: 320px;
   max-height: 100vh; /* fixed vertical scrollbar issue */
   background-color: var(--background-color);
+}
+
+[data-theme='dark'] {
+  --background-color: #000000;
+  --foreground-color: #003cff;
+  --title1-color: #2F94BC;
+  --title2-color: #9ADAE5;
+  --description: #a7a7a7;
+  --toggle-bg: #f0eb9d;
+  --toggle-fg: #ffd000;  
 }

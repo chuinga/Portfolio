@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 // Import Styles
 import './App.css';
@@ -11,8 +11,10 @@ import Sidebar from './components/sidebar';
 import Footer from './components/footer';
 
 function App() {
+  const [isDark, setIsDark] = useState(false);
+
   return (
-    <div className='frame'>
+    <div className='frame' data-theme={isDark ? 'dark' : 'light'}>
       <Header />
       <div className='mainContainer'>
         <Routes>
