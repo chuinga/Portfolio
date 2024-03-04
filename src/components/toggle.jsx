@@ -1,6 +1,6 @@
 import React from 'react';
 // Import styles
-import '../styles/toogle.css';
+import '../styles/toggle.css';
 
 const Toggle = ({ handleChange, isChecked }) => {
     return ( 
@@ -12,7 +12,7 @@ const Toggle = ({ handleChange, isChecked }) => {
                 onChange={handleChange} 
                 checked={isChecked} 
             />
-            <label htmlFor="check">Dark Mode</label>
+            <label htmlFor="check"></label>
         </div>        
      );
 }

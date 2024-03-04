@@ -16,7 +16,6 @@
     width: 2em;
     border-radius: 1em;
     background-color: var(--toggle-bg);
-    margin-right: 0.5em;
     transition: background-color 250ms ease-in-out;
 }
 
@@ -27,7 +26,7 @@
     border-radius: 1em;
     background-color: var(--toggle-fg);
     position: absolute;
-    right: 9.4em;
+    right: 4em;
     transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
 }
 
