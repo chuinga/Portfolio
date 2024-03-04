@@ -1,3 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .lang img {
     width: 2.8vw;
     max-width: 27px;

@@ -18,7 +18,7 @@ function App() {
   }, [isDark]);
 
   return (
-    <div className='frame' data-theme={isDark ? 'dark' : 'light'}>
+    <div className='frame' data-theme={isDark ? 'dark' : 'light'}>      
       <Header />
       <div className='mainContainer'>
         <Routes>
@@ -27,7 +27,7 @@ function App() {
         </Routes>      
         <Sidebar className='sidebar'/>
       </div>
-      <Footer />
+      <Footer isDark={isDark} toggleDarkMode={() => setIsDark(!isDark)} />
     </div>  
   )
 }
