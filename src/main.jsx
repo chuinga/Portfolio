@@ -5,7 +5,7 @@ import App from './App.jsx';
 // Import translation
 import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
-// Import styling
+// Import styles
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

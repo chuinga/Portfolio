@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-// Import Styles
+// Import styles
 import './App.css';
 // Import pages
 import HomePage from './pages/HomePage';
@@ -12,6 +12,10 @@ import Footer from './components/footer';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
+  
+  useEffect(() => {
+    document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  }, [isDark]);
 
   return (
     <div className='frame' data-theme={isDark ? 'dark' : 'light'}>

@@ -7,7 +7,7 @@ import translationEN from '../locales/en/translation.json';
 import translationES from '../locales/es/translation.json';
 import translationFR from '../locales/fr/translation.json';
 import translationPT from '../locales/pt/translation.json';
-// Import styling
+// Import styles
 import '../styles/homePage.css';
 
 const resources = {

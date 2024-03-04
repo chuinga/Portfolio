@@ -14,12 +14,8 @@
 }
 
 li {
+    padding-left: 8px;
     list-style-type: none;
-}
-
-ul > li::before {
-    content: "-";
-    padding-right: 4px;
 }
 
 .lighBlue {
