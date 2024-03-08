@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import useLocalStorage from 'use-local-storage';
 import { Routes, Route } from 'react-router-dom';
 // Import styles
 import './App.css';
@@ -11,7 +12,8 @@ import Sidebar from './components/sidebar';
 import Footer from './components/footer';
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDark, setIsDark] = useLocalStorage('isDark', preference);
   
   useEffect(() => {
     document.body.setAttribute('data-theme', isDark ? 'dark' : 'light');
