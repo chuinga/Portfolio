@@ -2,7 +2,7 @@
     visibility: hidden;
 }
 
-.toggle + label {
+label {
     display: flex;
     align-items: center;
     font-size: 1.5em;
@@ -10,21 +10,21 @@
     color: var(--title1-color);
 }
 
-.toggle + label::before {
+label::before {
     content: '';
-    height: 1.5em;
-    width: 3em;
     border-radius: 1em;
-    background-image: url('../assets/Light1.png');
+    background-image: var(--toggle-img);
     transition: background-color 250ms ease-in-out;
+}
+
+img{    
+    height: 2em;
+    width: 4em;
     background-size: contain; /* Or 'cover' depending on your needs */
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.toggle:checked + label::after {
-    transform: translateX(100%);
-}
 /* .toggle {
     visibility: hidden;
 }
