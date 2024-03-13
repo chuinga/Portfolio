@@ -12,6 +12,33 @@
 
 .toggle + label::before {
     content: '';
+    height: 1.5em;
+    width: 3em;
+    border-radius: 1em;
+    background-image: url('../assets/Light1.png');
+    transition: background-color 250ms ease-in-out;
+    background-size: contain; /* Or 'cover' depending on your needs */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.toggle:checked + label::after {
+    transform: translateX(100%);
+}
+/* .toggle {
+    visibility: hidden;
+}
+
+.toggle + label {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;    
+    color: var(--title1-color);
+}
+
+.toggle + label::before {
+    content: '';
     height: 1em;
     width: 2em;
     border-radius: 1em;
@@ -32,4 +59,4 @@
 
 .toggle:checked + label::after {
     transform: translateX(100%);
-}
+} */
