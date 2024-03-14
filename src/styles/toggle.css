@@ -9,7 +9,7 @@ label {
     height: 2em;
     width: 4em;
     cursor: pointer;   
-    background-size: contain; /* Or 'cover' depending on your needs */
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transition: opacity 1s ease-in-out;
@@ -17,65 +17,7 @@ label {
 }
 
 .toggleContainer {
-    position: relative; /* Establishes a stacking context */
-    height: 2em; /* Set to image height */
-    width: 4em; /* Set to image width */
-  }
-
-/* label {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em; 
-    color: var(--title1-color);
-}
-
-label::before {
-    content: '';
-    border-radius: 1em;
-    transition: background-color 250ms ease-in-out;
-}
-
-.toggle {    
+    position: relative;
     height: 2em;
     width: 4em;
-    cursor: pointer;   
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
-
-/* .toggle {
-    visibility: hidden;
-}
-
-.toggle + label {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    cursor: pointer;    
-    color: var(--title1-color);
-}
-
-.toggle + label::before {
-    content: '';
-    height: 1em;
-    width: 2em;
-    border-radius: 1em;
-    background-color: var(--toggle-bg);
-    transition: background-color 250ms ease-in-out;
-}
-
-.toggle + label::after {
-    content: '';
-    height: 0.8em;
-    width: 0.8em;
-    border-radius: 1em;
-    background-color: var(--toggle-fg);
-    position: absolute;
-    right: 4em;
-    transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
-}
-
-.toggle:checked + label::after {
-    transform: translateX(100%);
-} */
+  }
