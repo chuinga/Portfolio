@@ -5,13 +5,6 @@ label {
     color: var(--title1-color);
 }
 
-label::before {
-    content: '';
-    border-radius: 1em;
-    background-image: var(--toggle-img);
-    transition: background-color 250ms ease-in-out;
-}
-
 .toggle {    
     height: 2em;
     width: 4em;
@@ -19,7 +12,37 @@ label::before {
     background-size: contain; /* Or 'cover' depending on your needs */
     background-position: center;
     background-repeat: no-repeat;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
 }
+
+.toggleContainer {
+    position: relative; /* Establishes a stacking context */
+    height: 2em; /* Set to image height */
+    width: 4em; /* Set to image width */
+  }
+
+/* label {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em; 
+    color: var(--title1-color);
+}
+
+label::before {
+    content: '';
+    border-radius: 1em;
+    transition: background-color 250ms ease-in-out;
+}
+
+.toggle {    
+    height: 2em;
+    width: 4em;
+    cursor: pointer;   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
 
 /* .toggle {
     visibility: hidden;
