@@ -11,17 +11,12 @@ const Toggle = ({ handleChange, isChecked }) => {
 
     return ( 
         <div className='toggleContainer'>
-            <input 
-                type="checkbox" 
-                id='check' 
-                className='toggle' 
-                onChange={handleChange} 
-                checked={isChecked} 
-            />
             {/* Updated img tag to use toggleImg for the src attribute */}
-            <img src={toggleImg} alt="toggle" 
+            <img 
+                src={toggleImg} 
+                alt="toggle" 
+                className='toggle'
                 onClick={handleChange}/>
-            <label htmlFor="check"></label>
         </div>        
      );
 }
