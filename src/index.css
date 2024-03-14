@@ -9,7 +9,6 @@
   --title1-color: #2f55bc;
   --title2-color: #38c1da;
   --description: #646464;
-  --toggle-img: url('../assets/Light1.png');
   max-height: 100vh;
   margin: 0;
   padding: 0; 
@@ -33,7 +32,6 @@ body {
   --title1-color: #2F94BC;
   --title2-color: #9ADAE5;
   --description: #a7a7a7;
-  --toggle-img: url('../assets/Light5.png');
 }
 /* * { 
   margin: 0;

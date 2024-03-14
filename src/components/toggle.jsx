@@ -7,7 +7,7 @@ import escuro from '../assets/Light5.png';
 
 const Toggle = ({ handleChange, isChecked }) => {
     // Corrected ternary operation to choose between images
-    const toggleImg = isChecked ? claro : escuro;
+    const toggleImg = isChecked ? escuro : claro;
 
     return ( 
         <div className='toggleContainer'>
