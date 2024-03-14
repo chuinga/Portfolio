@@ -45,15 +45,29 @@ function project() {
     pawsitivehomes: 'Pawsitive Homes',
     groovegrid: 'GrooveGrid'
   };
-  const title = projectTitles[projectName] || 'Project not found'
+  const title = projectTitles[projectName] || 'Project not found';
+
+  const projectSite = {
+    gravity: 'https://chuinga.github.io/Project-Gravity-Game/',
+    pawsitivehomes: 'https://main--pawsitivehomes.netlify.app/',
+    groovegrid: 'https://groovegrid.netlify.app/'
+  };
+  const site = projectSite[projectName];
+
+  const projectGithub = {
+    gravity: 'https://github.com/chuinga/Project-Gravity-Game',
+    pawsitivehomes: 'https://github.com/Ksfraan/Pawsitive-Homes',
+    groovegrid: 'https://github.com/chuinga/GrooveGrid'
+  };
+  const github = projectGithub[projectName];
 
   return (    
     <div className='content'>
       <h2 className='blue'>{title}</h2>
       <p className='projectDescription'>{t(translationKey)}</p>
       <div className='projectLinks'>
-        <Link to='https://chuinga.github.io/Project-Gravity-Game/' target='_blank' className='links'>Site</Link>
-        <Link to='https://github.com/chuinga/Project-Gravity-Game' target='_blank' className='links'>Github</Link>
+        <Link to={site} target='_blank' className='links'>Site</Link>
+        <Link to={github} target='_blank' className='links'>Github</Link>
       </div>
     </div>    
   );

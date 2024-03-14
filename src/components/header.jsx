@@ -26,10 +26,12 @@ function header() {
                 {/* <button onClick={openLinkMultipleTimes} style={{ border: 'none', background: 'none' }}>
                     <img src={GithubIcon} alt='Github' />
                 </button> */}
-                <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/' target='_blank'>                
+                <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/' 
+                target='_blank'>                
                     <img src={LinkedinIcon} alt='Linkedin' />
                 </Link>               
-                <Link to='https://github.com/chuinga' target='_blank'>               
+                <Link to='https://github.com/chuinga' 
+                target='_blank'>               
                     <img src={GithubIcon} alt='Github' />
                 </Link> 
                 <a href='mailto:mfproencamartins@gmail.com?subject=Mail%20from%20miguelmartins.com'>
