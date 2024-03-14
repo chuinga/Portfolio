@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 // Import translation components
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
@@ -47,13 +47,15 @@ function project() {
   };
   const title = projectTitles[projectName] || 'Project not found'
 
-  return (
-    <>
-      <div className='content'>
-        <h2 className='blue'>{title}</h2>
-        <p className='projectDescription'>{t(translationKey)}</p>
+  return (    
+    <div className='content'>
+      <h2 className='blue'>{title}</h2>
+      <p className='projectDescription'>{t(translationKey)}</p>
+      <div className='projectLinks'>
+        <Link to='https://chuinga.github.io/Project-Gravity-Game/' target='_blank' className='links'>Site</Link>
+        <Link to='https://github.com/chuinga/Project-Gravity-Game' target='_blank' className='links'>Github</Link>
       </div>
-    </>
+    </div>    
   );
 }
 
