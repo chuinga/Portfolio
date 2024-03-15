@@ -48,7 +48,7 @@ function project() {
   const title = projectTitles[projectName] || 'Project not found';
 
   const projectSite = {
-    gravity: 'https://chuinga.github.io/Project-Gravity-Game/',
+    gravity: 'https://gravitygame.netlify.app/',
     pawsitivehomes: 'https://main--pawsitivehomes.netlify.app/',
     groovegrid: 'https://groovegrid.netlify.app/'
   };
