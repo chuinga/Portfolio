@@ -21,7 +21,7 @@ function App() {
   }, [isDark]);
 
   return (
-    <div className='frame' data-theme={isDark ? 'dark' : 'light'}>      
+    <div className='gradientBorder' data-theme={isDark ? 'dark' : 'light'}>      
       <Header />
       <div className='mainContainer'>
         <Routes>
