@@ -34,7 +34,7 @@ function header() {
                 target='_blank'>               
                     <img src={GithubIcon} alt='Github' />
                 </Link> 
-                <a href='mailto:mfproencamartins@gmail.com?subject=Mail%20from%20miguelmartins.com'>
+                <a href='mailto:mfproencamartins@gmail.com?subject=Mail%20from%20miguel-martins.netlify.app'>
                     <img src={MailIcon} alt='Mail' />
                 </a>   
             </div>
