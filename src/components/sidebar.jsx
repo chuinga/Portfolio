@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import '../styles/sidebar.css';
 
+
 function Sidebar() {
     const { t } = useTranslation();
 

@@ -10,6 +10,7 @@ import translationPT from '../locales/pt/translation.json';
 // Import styles
 import '../styles/homePage.css';
 
+
 const resources = {
   en: {
     translation: translationEN,

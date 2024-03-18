@@ -11,6 +11,7 @@ import '../styles/footer.css'
 // Import components
 import Toggle from '../components/toggle';
 
+
 function footer({ isDark, toggleDarkMode }) {
     const { i18n } = useTranslation();
     const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);

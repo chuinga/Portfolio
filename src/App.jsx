@@ -11,6 +11,7 @@ import Header from './components/header';
 import Sidebar from './components/sidebar';
 import Footer from './components/footer';
 
+
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [isDark, setIsDark] = useLocalStorage('isDark', preference);

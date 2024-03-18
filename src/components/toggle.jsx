@@ -5,6 +5,7 @@ import '../styles/toggle.css';
 import day from '../assets/Light1.png';
 import night from '../assets/Light5.png';
 
+
 const Toggle = ({ handleChange, isChecked }) => {
     return (
         <div className='toggleContainer' onClick={handleChange}>

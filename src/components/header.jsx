@@ -8,12 +8,6 @@ import MailIcon from '../assets/mail.png';
 // Import styles
 import '../styles/header.css';
 
-/* function openLinkMultipleTimes() {
-    const url = 'https://github.com/chuinga';
-    for (let i = 0; i < 100; i++) {
-      window.open(url, `_blank${i}`, 'noopener,noreferrer');
-    }
-  } */  
 
 function header() {
     return ( 
@@ -23,9 +17,6 @@ function header() {
             </NavLink>
             
             <div className='social'>
-                {/* <button onClick={openLinkMultipleTimes} style={{ border: 'none', background: 'none' }}>
-                    <img src={GithubIcon} alt='Github' />
-                </button> */}
                 <Link to='https://www.linkedin.com/in/miguel-martins-a08a76a5/' 
                 target='_blank'>                
                     <img src={LinkedinIcon} alt='Linkedin' />
