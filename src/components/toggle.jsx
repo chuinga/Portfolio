@@ -1,3 +1,4 @@
+// Import functionalities
 import React from 'react';
 // Import styles
 import '../styles/toggle.css';

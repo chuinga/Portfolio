@@ -1,3 +1,4 @@
+// Import functionalities
 import React from 'react';
 // Import translation components
 import { useTranslation } from 'react-i18next';

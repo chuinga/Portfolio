@@ -1,3 +1,4 @@
+// Import functionalities, hooks and components
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 // Import translation components

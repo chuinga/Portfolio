@@ -1,3 +1,4 @@
+// Import functionalities and components
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 // Import styles

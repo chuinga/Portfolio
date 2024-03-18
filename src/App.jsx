@@ -1,3 +1,4 @@
+// Import functionalities, hooks and components
 import React, { useEffect, useState } from 'react';
 import useLocalStorage from 'use-local-storage';
 import { Routes, Route } from 'react-router-dom';

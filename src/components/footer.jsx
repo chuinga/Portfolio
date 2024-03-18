@@ -1,5 +1,6 @@
-// Import React, useState and useTranslation hook
+// Import functionalities and hooks
 import React, { useState } from 'react';
+// Import translation components
 import { useTranslation } from 'react-i18next';
 // Import images
 import En from '../assets/en.png';
