@@ -18,6 +18,10 @@ li {
     list-style-type: none;
 }
 
+li a {
+    color: var(--description);
+}
+
 .lighBlue {
     color: var(----title2-color); 
 }
