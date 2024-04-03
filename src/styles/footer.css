@@ -12,14 +12,12 @@
 }
 
 .lang img {
-    width: 2.8vw;
-    max-width: 27px;
+    width: 27px;
     margin: 3px;
 }
 
 .langIcon {
-    cursor: pointer;/* 
-    transition: transform 1s ease; */
+    cursor: pointer;
 }
 
 .langIcon.selected {

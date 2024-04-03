@@ -20,15 +20,9 @@ h2, p {
 }
 
 .links{    
-    margin: 2%;
-    padding: 1%;
+    display: inline-block;
+    margin: 1% 0 0 5%;
     font-weight: bold;
-    font-size:large;
+    font-size: 1.1em;
     color: var(--description);
-}
-
-.links:hover {    
-  font-size: 1.2em;
-  transform: translate(0.1em, 0.1em);
-  transition: transform 0.7s ease;
 }

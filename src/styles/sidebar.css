@@ -19,7 +19,9 @@ li {
 }
 
 li a {
-    color: var(--description);
+    display: inline-block;
+    margin-bottom: 4px;
+    color: var(--description);    
 }
 
 .lighBlue {

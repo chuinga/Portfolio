@@ -5,12 +5,10 @@
 }
 
 .mainLogo {
-    width: 9vw;
-    max-width: 80px;
+    width: 80px;
 }
 
 .social img {
-    width: 3vw;    
-    max-width: 30px;
+    width: 30px;
     margin: 3px;
 }

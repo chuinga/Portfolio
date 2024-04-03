@@ -21,3 +21,9 @@ img:hover {
   transform: translate(0.1em, 0.1em);
   transition: transform 0.7s ease;
 }
+
+a:hover {    
+  transform: scaleX(1.2); 
+  transform: translate(0.1em, 0.1em);
+  transition: transform 0.7s ease;
+}
