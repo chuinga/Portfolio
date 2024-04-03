@@ -7,6 +7,7 @@ import './App.css';
 // Import pages
 import HomePage from './pages/HomePage';
 import Project from './pages/Project';
+import PageNotFound from './pages/PageNotFound';
 // Import components
 import Header from './components/header';
 import Sidebar from './components/sidebar';
@@ -26,10 +27,11 @@ function App() {
       <Header />
       <div className='mainContainer'>
         <Routes>
-          <Route path='/' element={<HomePage className='homePage'/>} />
-          <Route path='/project/:projectName' element={<Project className='Project'/>} />        
+          <Route path='/' element={<HomePage />} />
+          <Route path='/project/:projectName' element={<Project />} />      
+          <Route path='*' element={<PageNotFound />} />  
         </Routes>      
-        <Sidebar className='sidebar'/>
+        <Sidebar />
       </div>
       <Footer isDark={isDark} toggleDarkMode={() => setIsDark(!isDark)} />
     </div>  

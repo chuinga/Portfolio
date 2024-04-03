@@ -13,9 +13,9 @@ function Sidebar() {
         <div className='projects'>
             <h2 className='lightBlue'>{t('projects')}</h2>
             <ul>
-                <li><NavLink to='/project/gravity'>Gravity</NavLink></li>
+                <li><NavLink to='/project/groovegrid'>GrooveGrid</NavLink></li>                
                 <li><NavLink to='/project/pawsitivehomes'>Pawsitive Homes</NavLink></li>
-                <li><NavLink to='/project/groovegrid'>GrooveGrid</NavLink></li>
+                <li><NavLink to='/project/gravity'>Gravity</NavLink></li>                
             </ul>
         </div>
     );

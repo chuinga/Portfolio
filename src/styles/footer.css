@@ -5,6 +5,12 @@
     margin: 0 3px;
 }
 
+.lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .lang img {
     width: 2.8vw;
     max-width: 27px;
