@@ -68,8 +68,8 @@ function project() {
       <h2 className='blue'>{title}</h2>
       <p className='projectDescription'>{t(translationKey)}</p>
       <div className='projectLinks'>
-        <Link to={site} target='_blank' className='links'>Site</Link>
-        <Link to={github} target='_blank' className='links'>Github</Link>
+        <Link to={site} target='_blank' className='links'>Site</Link> /* Links hover style unfinished
+        <Link to={github} target='_blank' className='links'>Github</Link> /* Links hover style unfinished
       </div>
     </div>    
   );
