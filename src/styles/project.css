@@ -26,3 +26,9 @@ h2, p {
     font-size:large;
     color: var(--description);
 }
+
+.links:hover {    
+  font-size: 1.2em;
+  transform: translate(0.1em, 0.1em);
+  transition: transform 0.7s ease;
+}

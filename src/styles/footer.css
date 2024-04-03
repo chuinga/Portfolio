@@ -18,8 +18,8 @@
 }
 
 .langIcon {
-    cursor: pointer;
-    transition: transform 1s ease;
+    cursor: pointer;/* 
+    transition: transform 1s ease; */
 }
 
 .langIcon.selected {

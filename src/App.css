@@ -16,15 +16,8 @@
   height: 60%;
 }
 
-
-a {
-  padding: 0.1em;
-}
-
-a:hover {
-  font-;
-}
-
-a:hover img {
-  transform: scale(1.2);  
+img:hover {
+  scale: (2.2, 2.2);
+  transform: translate(0.1em, 0.1em);
+  transition: transform 0.7s ease;
 }

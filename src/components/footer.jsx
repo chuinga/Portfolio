@@ -27,12 +27,12 @@ function footer({ isDark, toggleDarkMode }) {
     return ( 
         <div className='footer'>
             <div className='lang'>
-                <img src={En} alt='English' className={`langIcon ${isSelected('en') ? 'selected' : ''}`} onClick={() => handleLanguageChange('en')} /> {/* Links hover style unfinished */}
-                <img src={Es} alt='Español' className={`langIcon ${isSelected('es') ? 'selected' : ''}`} onClick={() => handleLanguageChange('es')} /> {/* Links hover style unfinished */}
-                <img src={Fr} alt='Français' className={`langIcon ${isSelected('fr') ? 'selected' : ''}`} onClick={() => handleLanguageChange('fr')} /> {/* Links hover style unfinished */}
-                <img src={Pt} alt='Português' className={`langIcon ${isSelected('pt') ? 'selected' : ''}`} onClick={() => handleLanguageChange('pt')} /> {/* Links hover style unfinished */}
+                <img src={En} alt='English' className={`langIcon ${isSelected('en') ? 'selected' : ''}`} onClick={() => handleLanguageChange('en')} />
+                <img src={Es} alt='Español' className={`langIcon ${isSelected('es') ? 'selected' : ''}`} onClick={() => handleLanguageChange('es')} />
+                <img src={Fr} alt='Français' className={`langIcon ${isSelected('fr') ? 'selected' : ''}`} onClick={() => handleLanguageChange('fr')} />
+                <img src={Pt} alt='Português' className={`langIcon ${isSelected('pt') ? 'selected' : ''}`} onClick={() => handleLanguageChange('pt')} />
             </div>
-            <Toggle isChecked={isDark} handleChange={toggleDarkMode} /> {/* Links hover style unfinished */}
+            <Toggle isChecked={isDark} handleChange={toggleDarkMode} />
         </div>
         
 );        
