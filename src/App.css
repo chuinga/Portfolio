@@ -16,17 +16,20 @@
   height: 60%;
 }
 
+img {
+  transition: transform 0.7s ease-in-out;  
+}
+
 img:hover {
-  scale: (2.2, 2.2);
-  transform: translate(0.1em, 0.1em);
-  transition: transform 0.7s ease;
+  transform: scale(1.1, 1.1) translate(0.1em, 0.1em);
+  transition: transform 0.7s ease-in-out;
 }
 
 a {
-  transition: transform 0.5s ease;
+  transition: transform 0.7s ease-in-out;
 }
 
-a:hover {    
-  transform: scaleX(1.2); 
-  transform: translate(0.1em, 0.1em);
+a:hover {
+  transform: scaleX(1.1) translate(0, 0.1em);
+  transition: transform 0.7s ease-in-out;
 }
