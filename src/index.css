@@ -5,10 +5,10 @@
 }
 
 :root {
-  --background-color: #f6f6f6;
-  --title1-color: #2f55bc;
-  --title2-color: #38c1da;
-  --description: #646464;
+  --background-color: #dbdbdb;
+  --title1-color: #0400df;
+  --title2-color: #007ce2;
+  --description: #464444;
   max-height: 100vh;
   margin: 0;
   padding: 0; 
@@ -31,5 +31,5 @@ body {
   --background-color: #000000;
   --title1-color: #2F94BC;
   --title2-color: #9ADAE5;
-  --description: #a7a7a7;
+  --description: #c0c0c0;
 }
