@@ -23,17 +23,23 @@ function App() {
   }, [isDark]);
 
   return (
-    <div className='gradientBorder' data-theme={isDark ? 'dark' : 'light'}>      
-      <Header />
-      <div className='mainContainer'>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/project/:projectName' element={<Project />} />      
-          <Route path='*' element={<PageNotFound />} />  
-        </Routes>      
-        <Sidebar />
-      </div>
-      <Footer isDark={isDark} toggleDarkMode={() => setIsDark(!isDark)} />
+    <div className='gradientBorder' data-theme={isDark ? 'dark' : 'light'}>     
+      <header>
+        <Header />
+      </header> 
+      <main>
+        <div className='mainContainer'>
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='/project/:projectName' element={<Project />} />      
+            <Route path='*' element={<PageNotFound />} />  
+          </Routes>      
+          <Sidebar />
+        </div>
+      </main>
+      <footer>
+        <Footer isDark={isDark} toggleDarkMode={() => setIsDark(!isDark)} />
+      </footer>       
     </div>  
   )
 }
