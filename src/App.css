@@ -1,15 +1,20 @@
-.gradientBorder {
+.outerContainer {
+  border: 15px solid #0206f5;
+}
+
+.mainContainer {  
+  background-color: var(--background-color);
+  transition: background-color 1500ms ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 15px solid #0206f5;
   padding: 5px;
-  box-sizing: border-box;
-  height: 420px;
+  width: 940;
+  height: 380px;
   overflow-y: auto;
 }
 
-.mainContainer {
+.innerContainer {
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
