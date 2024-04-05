@@ -9,6 +9,9 @@
   --title1-color: #0400df;
   --title2-color: #007ce2;
   --description: #464444;
+  --gradient1: #360033;
+  --gradient2: #2B32B2;
+  --gradient3: #0B8793;
   max-height: 100vh;
   margin: 0;
   padding: 0; 
@@ -32,4 +35,7 @@ body {
   --title1-color: #2F94BC;
   --title2-color: #9ADAE5;
   --description: #c0c0c0;
+  --gradient1: #5433FF;
+  --gradient2: #20BDFF;
+  --gradient3: #A5FECB;
 }

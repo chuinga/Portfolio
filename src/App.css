@@ -1,15 +1,48 @@
 .outerContainer {
-  border: 15px solid #0206f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  width: 980px;
+  height: 420px;
+  overflow: hidden;
 }
 
-.mainContainer {  
+.outerContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89%;
+  height: 40%;
+  background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3));
+  transform: skewX(-81deg);
+  transform-origin: top left;
+  z-index: -1;
+}
+
+.outerContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 89%;
+  height: 40%;
+  background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3));
+  transform: skewX(99deg);
+  transform-origin: bottom right;
+  z-index: -1;
+}
+
+.mainContainer {
   background-color: var(--background-color);
   transition: background-color 1500ms ease-in-out;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 5px;
-  width: 940;
+  width: 940px;
   height: 380px;
   overflow-y: auto;
 }
@@ -18,11 +51,12 @@
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
-  height: 60%;
+  height: 60%; 
 }
 
 img {
   transition: transform 0.7s ease-in-out;  
+  z-index: 1;
 }
 
 img:hover {
@@ -32,6 +66,7 @@ img:hover {
 
 a {
   transition: transform 0.7s ease-in-out;
+  z-index: 1;
 }
 
 a:hover {
