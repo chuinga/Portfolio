@@ -34,8 +34,7 @@ function footer({ isDark, toggleDarkMode }) {
             </div>
             {/* <p>©{new Date().getFullYear()} mfpmartins.dev</p> */}
             <Toggle isChecked={isDark} handleChange={toggleDarkMode} />
-        </div>
-        
+        </div>        
 );        
 }
 
