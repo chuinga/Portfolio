@@ -25,13 +25,10 @@ function header() {
                 <Link to='https://github.com/chuinga' 
                 target='_blank'>               
                     <img src={GithubIcon} alt='Github' />
-                </Link> 
-                <a href='mailto:contact@mfpmartins.dev?subject=Mail%20from%20miguel-martins.netlify.app'>
+                </Link>                 
+                {<a href='mailto:contact@mfpmartins.dev?subject=Mail%20from%20mfpmartins.dev'>
                     <img src={MailIcon} alt='Mail' />
-                </a>
-                {/* <a href='mailto:contact@mfpmartins.dev?subject=Mail%20from%20mfpmartins.dev'>
-                    <img src={MailIcon} alt='Mail' />
-                </a> */}  
+                </a>}  
             </div>
         </div>
      );
