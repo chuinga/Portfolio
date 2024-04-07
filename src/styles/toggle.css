@@ -11,8 +11,8 @@ label {
 }
 
 img.toggle {    
-    height: 32px;
-    width: 64px;
+    height: 30px;
+    width: 60px;
     cursor: pointer;   
     background-size: contain;
     background-position: center;
