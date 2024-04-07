@@ -28,7 +28,10 @@ function header() {
                 </Link> 
                 <a href='mailto:contact@mfpmartins.dev?subject=Mail%20from%20miguel-martins.netlify.app'>
                     <img src={MailIcon} alt='Mail' />
-                </a>   
+                </a>
+                {/* <a href='mailto:contact@mfpmartins.dev?subject=Mail%20from%20mfpmartins.dev'>
+                    <img src={MailIcon} alt='Mail' />
+                </a> */}  
             </div>
         </div>
      );

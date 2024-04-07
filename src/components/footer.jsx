@@ -32,6 +32,7 @@ function footer({ isDark, toggleDarkMode }) {
                 <img src={Fr} alt='Français' className={`langIcon ${isSelected('fr') ? 'selected' : ''}`} onClick={() => handleLanguageChange('fr')} />
                 <img src={Pt} alt='Português' className={`langIcon ${isSelected('pt') ? 'selected' : ''}`} onClick={() => handleLanguageChange('pt')} />
             </div>
+            {/* <p>©{new Date().getFullYear()} mfpmartins.dev</p> */}
             <Toggle isChecked={isDark} handleChange={toggleDarkMode} />
         </div>
         
