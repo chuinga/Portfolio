@@ -40,3 +40,7 @@ body {
   --gradient2: #20BDFF;
   --gradient3: #A5FECB;
 }
+
+p {
+  text-align: justify;
+}
