@@ -42,10 +42,11 @@ function body() {
   return (
     <>
       <div className='content'>
-        <p className='blue'>{t('greeting')}</p>
-        <h2 className='lightBlue'>Miguel Martins</h2>
-        <h2 className='description'>{t('my_title')}</h2>
-        <p className='description'>{t('my_description')}</p>
+        <div className='colorBar' /> 
+          <p className='blue'>{t('greeting')}</p>
+          <h1 className='lightBlue'>Miguel Martins</h1>
+          <h2 className='description'>{t('my_title')}</h2>
+          <p className='description'>{t('my_description')}</p>     
       </div>
     </>
   );

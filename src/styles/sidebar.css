@@ -1,11 +1,21 @@
 .projects {
-    margin-right: 5%;
+    margin-right: 2%;
     margin-left: 5%;
     min-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+}
+
+.colorSideBar {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 5px;
+    height: 87%;
+    background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3));
 }
 
 .projects ul {

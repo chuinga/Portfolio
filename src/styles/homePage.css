@@ -1,9 +1,19 @@
 .content {
-    padding-left: 5%;
+    position: relative;
+    margin-left: 3%;
+    padding-left: 10px;
+    width: 75%;
+    height: 220px;
 }
 
-h2, p {
-    margin:0;
+.colorBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 5px;
+    height: 87%;
+    background: linear-gradient(to right, var(--gradient1), var(--gradient2), var(--gradient3));
 }
 
 .blue {

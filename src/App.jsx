@@ -2,17 +2,15 @@
 import React, { useEffect, useState } from 'react';
 import useLocalStorage from 'use-local-storage';
 import { Routes, Route } from 'react-router-dom';
-// Import styles
 import './App.css';
-// Import pages
+
+// Import pages and components
 import HomePage from './pages/HomePage';
 import Project from './pages/Project';
 import PageNotFound from './pages/PageNotFound';
-// Import components
-import Header from './components/header';
-import Sidebar from './components/sidebar';
-import Footer from './components/footer';
-
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;

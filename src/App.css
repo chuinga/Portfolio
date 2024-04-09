@@ -51,7 +51,7 @@
   max-width: 1024px;
   display: flex;
   justify-content: space-between;
-  height: 60%; 
+  height: 100%; 
 }
 
 img {
