@@ -8,7 +8,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import Project from './pages/Project';
 import PageNotFound from './pages/PageNotFound';
-import Header from './components/Header';
+import Header from './components/header';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 
