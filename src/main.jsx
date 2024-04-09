@@ -1,21 +1,34 @@
-// Import functionalities and components
+// Import React and ReactDOM for rendering
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// Routing functionalities
 import { BrowserRouter } from 'react-router-dom';
-import App from './App.jsx';
-// Import translation components
+
+// Main app component
+import App from './App';
+
+// Internationalization
 import { I18nextProvider } from 'react-i18next';
 import i18next from 'i18next';
-// Import styles
+
+// Styles
 import './index.css';
 
+// Get the root element
+const root = document.getElementById('root');
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </I18nextProvider>    
-  </React.StrictMode>,
-)
+// Ensure the root element exists before rendering the app
+if (root) {
+  ReactDOM.createRoot(root).render(
+    <React.StrictMode>
+      <I18nextProvider i18n={i18next}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </I18nextProvider>
+    </React.StrictMode>
+  );
+} else {
+  console.error('Failed to find the root element. Make sure your HTML file has an element with the id "root".');
+}
