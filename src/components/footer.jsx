@@ -10,7 +10,7 @@ import Pt from '../assets/pt.png';
 // Import styles
 import '../styles/footer.css'
 // Import components
-import Toggle from './Toggle';
+import Toggle from './toggle';
 
 
 function footer({ isDark, toggleDarkMode }) {

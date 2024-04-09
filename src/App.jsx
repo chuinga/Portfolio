@@ -9,8 +9,8 @@ import HomePage from './pages/HomePage';
 import Project from './pages/Project';
 import PageNotFound from './pages/PageNotFound';
 import Header from './components/header';
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
+import Sidebar from './components/sidebar';
+import Footer from './components/footer';
 
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
