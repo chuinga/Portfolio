@@ -40,7 +40,6 @@ function body() {
   const { t } = useTranslation();
 
   return (
-    <>
       <div className='content'>
         <div className='colorBar' /> 
           <p className='blue'>{t('greeting')}</p>
@@ -48,7 +47,6 @@ function body() {
           <h2 className='description'>{t('my_title')}</h2>
           <p className='description'>{t('my_description')}</p>     
       </div>
-    </>
   );
 }
 

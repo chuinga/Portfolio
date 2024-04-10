@@ -3,6 +3,7 @@
     "my_title": "Construo aplicações para a web...",
     "my_description": "Sou um desenvolvedor full-stack baseado perto de Lisboa, Portugal. Apaixonado por programação, downhill e composição de novas melodias. Sou movido por uma sede por conhecimento e esforço-me consistentemente para aprender e melhorar, sempre com grande atenção aos detalhes.",
     "projects": "Projectos",
+    "404_page": "Parece que caiu num buraco negro. Vamos levá-lo de volta para a ",
     "gravity_description": "Um jogo onde os jogadores saltam por cima de obstáculos para ganhar pontos e tentam apanhar snacks para ganhar vidas e também pontos. O jogo termina quando as vidas acabam ou quando são atingidos 100 pontos. As tecnologias utilizadas foram HTML, CSS e Javascript.",
     "pawsitivehomes_description": "Uma base de dados online pesquisável de animais que precisam de lares. Somos um refúgio de esperança e alegria para nossos amigos peludos. As tecnologias utilizadas foram HTML, CSS, Javascript, Vite, React, json-server e CRUD.",
     "groovegrid_description": "Um aplicativo de músicas que permite criar uma experiência personalizada e adaptada ao seu gosto musical. As tecnologias utilizadas foram Node.js e MongoDB para backend e HTML5, CSS3 e React.js para frontend."   

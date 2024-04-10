@@ -3,6 +3,7 @@
     "my_title": "I create stuff for the web...",
     "my_description": "I am a full-stack developer based near Lisbon, Portugal. My enthusiasm lies in programming, downhill biking, and creating new sounds. Driven by an insatiable curiosity, I am committed to constantly expanding my knowledge and perfecting my skills, always with attention to detail.",
     "projects": "Projects",
+    "404_page": "Looks like you've fallen into a black hole. Let's get you back to the ",
     "gravity_description": "A game where players jump over obstacles to gain score and try to catch snacks to gain lives and also score. The game ends when the lives are over or when is reached a score of 100 points. The technologies used were HTML, CSS and Javascript.",
     "pawsitivehomes_description": "An online, searchable database of animals who need homes. We are a refuge of hope and joy for our furry friends. The technologies used were HTML, CSS, Javascript, Vite, React, json-server and CRUD.",
     "groovegrid_description": "A music application that allows you to create a personalized experience tailored to your musical taste. The technologies used were Node.js and MongoDB for the backend and HTML5, CSS3 and React.js for the frontend."
