@@ -68,7 +68,7 @@ function project() {
       <h2 className='blue'>{title}</h2>
       <p className='projectDescription'>{t(translationKey)}</p>
       <>
-        // Uncomment the following line when solved issue with iframe.
+        {/* Uncomment the following line when solved issue with iframe. */}
         {/* <Link to={`/project/${projectName}/embed`} className='links'>Embedded Site</Link> */}
         <Link to={site} target='_blank' className='links'>Visit Site</Link>
         <Link to={github} target='_blank' className='links'>Github</Link>
