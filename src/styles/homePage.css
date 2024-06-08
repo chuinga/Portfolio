@@ -26,3 +26,19 @@
 .description {
     color: var(--description);
 }
+
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {   
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    
+}
+
+@media (min-width: 1440px) {
+    
+}
