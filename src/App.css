@@ -50,6 +50,7 @@
 .innerContainer {
   max-width: 1024px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   height: 220px; 
 }
@@ -75,17 +76,25 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    
+  .innerContainer {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {   
-    
+  .innerContainer {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-    
+  .innerContainer {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1440px) {
-    
+  .innerContainer {
+    flex-direction: row;
+  } 
 }
