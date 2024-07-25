@@ -45,21 +45,24 @@ function project() {
   const projectTitles = {
     gravity: 'Gravity',
     pawsitivehomes: 'Pawsitive Homes',
-    groovegrid: 'GrooveGrid'
+    groovegrid: 'GrooveGrid',
+    setubal: 'Setúbal'
   };
   const title = projectTitles[projectName] || 'Project not found';
 
   const projectSite = {
     gravity: 'https://gravitygame.netlify.app/',
     pawsitivehomes: 'https://main--pawsitivehomes.netlify.app/',
-    groovegrid: 'https://groovegrid.netlify.app/'
+    groovegrid: 'https://groovegrid.netlify.app/',
+    setubal: 'https://main--setubal.netlify.app/'
   };
   const site = projectSite[projectName];
 
   const projectGithub = {
     gravity: 'https://github.com/chuinga/Project-Gravity-Game',
     pawsitivehomes: 'https://github.com/Ksfraan/Pawsitive-Homes',
-    groovegrid: 'https://github.com/chuinga/GrooveGrid'
+    groovegrid: 'https://github.com/chuinga/GrooveGrid',
+    setubal: 'https://github.com/chuinga/TrabalhoFinalWebFE'
   };
   const github = projectGithub[projectName];
 

@@ -6,5 +6,6 @@
     "404_page": "Parece que caiu num buraco negro. Vamos levá-lo de volta para a ",
     "gravity_description": "Um jogo onde os jogadores saltam por cima de obstáculos para ganhar pontos e tentam apanhar snacks para ganhar vidas e também pontos. O jogo termina quando as vidas acabam ou quando são atingidos 100 pontos. As tecnologias utilizadas foram HTML, CSS e Javascript.",
     "pawsitivehomes_description": "Uma base de dados online pesquisável de animais que precisam de lares. Somos um refúgio de esperança e alegria para nossos amigos peludos. As tecnologias utilizadas foram HTML, CSS, Javascript, Vite, React, json-server e CRUD.",
-    "groovegrid_description": "Um aplicativo de músicas que permite criar uma experiência personalizada e adaptada ao seu gosto musical. As tecnologias utilizadas foram Node.js e MongoDB para backend e HTML5, CSS3 e React.js para frontend."   
+    "groovegrid_description": "Um aplicativo de músicas que permite criar uma experiência personalizada e adaptada ao seu gosto musical. As tecnologias utilizadas foram Node.js e MongoDB para backend e HTML5, CSS3 e React.js para frontend."   ,
+    "setubal_description": "Um website onde apresento as minhas atracções favoritas em Setúbal: a Arrábida, as suas praias e a sua gastronomia. As tecnologias utilizadas são HTML, CSS e JavaScript puro."
 }
