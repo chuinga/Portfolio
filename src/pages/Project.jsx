@@ -54,7 +54,7 @@ function project() {
     gravity: 'https://gravitygame.netlify.app/',
     pawsitivehomes: 'https://pawsitivehomes.netlify.app/',
     groovegrid: 'https://groovegrid.netlify.app/',
-    setubal: 'https://setubal.netlify.app/'
+    setubal: 'https://setubal.vercel.app/'
   };
   const site = projectSite[projectName];
 
