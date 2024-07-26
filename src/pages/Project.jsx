@@ -52,9 +52,9 @@ function project() {
 
   const projectSite = {
     gravity: 'https://gravitygame.netlify.app/',
-    pawsitivehomes: 'https://main--pawsitivehomes.netlify.app/',
+    pawsitivehomes: 'https://pawsitivehomes.netlify.app/',
     groovegrid: 'https://groovegrid.netlify.app/',
-    setubal: 'https://main--setubal.netlify.app/'
+    setubal: 'https://setubal.netlify.app/'
   };
   const site = projectSite[projectName];
 
